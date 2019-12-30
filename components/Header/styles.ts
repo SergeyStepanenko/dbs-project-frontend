@@ -4,7 +4,7 @@ export const Container = styled('header')({
   marginBottom: '25px'
 })
 
-export const LinkText = styled.span((props) => ({
+export const LinkText = styled.span<{ isActive?: boolean }>((props) => ({
   fontSize: '14px',
   marginRight: '15px',
   textDecoration: props.isActive ? 'underline' : 'none'

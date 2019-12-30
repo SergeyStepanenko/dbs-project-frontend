@@ -21,7 +21,7 @@ export default ({ children }) => (
           }
 
           footer {
-            backgroundcolor: rgba(255, 255, 255, 0.95);
+            background-color: rgba(255, 255, 255, 0.95);
             bottom: 0;
             font-size: 12px;
             left: 0;
@@ -62,9 +62,6 @@ export default ({ children }) => (
         `}
       />
       {children}
-      <footer>
-        Made by <a href="http://twitter.com/adamSoffer">@adamSoffer</a>
-      </footer>
     </div>
   </div>
 )
