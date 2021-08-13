@@ -38,7 +38,7 @@
     "graphql": "^14.3.1",
     "isomorphic-fetch": "^2.2.1",
     "lodash": "^4.17.15",
-    "next": "^9.0.6",
+    "next": "^11.1.0",
     "next-apollo": "^3.1.5",
     "prop-types": "^15.6.1",
     "react": "^16.8.6",
